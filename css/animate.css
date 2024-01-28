@@ -470,6 +470,11 @@ Copyright (c) 2013 Daniel Eden
     }
 }
 
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+
 @keyframes fadeInRightBig {
     0% {
         opacity: 0;
