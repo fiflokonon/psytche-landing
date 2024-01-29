@@ -11,7 +11,7 @@
 
 [class^="ti-"], [class*=" ti-"] {
 	font-family: 'themify';
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -22,8 +22,11 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.ti-user:before {
-	content: "\e602";
+.ti-tablet:before {
+	content: "\e609";
+}
+.ti-search:before {
+	content: "\e610";
 }
 .ti-arrow-right:before {
 	content: "\e628";
@@ -31,27 +34,24 @@
 .ti-arrow-left:before {
 	content: "\e629";
 }
-.ti-crown:before {
-	content: "\e642";
+.ti-angle-right:before {
+	content: "\e649";
 }
-.ti-calendar:before {
-	content: "\e6b6";
+.ti-angle-left:before {
+	content: "\e64a";
 }
-.ti-twitter:before {
-	content: "\e72a";
+.ti-angle-down:before {
+	content: "\e64b";
 }
-.ti-pinterest:before {
-	content: "\e731";
-}
-.ti-linkedin:before {
-	content: "\e735";
-}
-.ti-google:before {
-	content: "\e73e";
-}
-.ti-github:before {
-	content: "\e73f";
+.ti-home:before {
+	content: "\e69b";
 }
 .ti-facebook:before {
 	content: "\e741";
+}
+.ti-twitter-alt:before {
+	content: "\e74b";
+}
+.ti-email:before {
+	content: "\e75a";
 }
